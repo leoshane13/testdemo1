@@ -351,6 +351,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeSignIn" Key="{4431765F-1097-47DB-B0C4-DCC53EDE0488}">
+										<Image FileName="-1010064785" Left="700" Top="578" Right="1220" Bottom="618" />
+										<TypeInfo Item0="{36C2850F-A7E9-4E18-B3DE-F9F292C0B398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login&apos;]/h1" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSearchpage" Key="{56C6C8AB-AABA-4A9F-8F8C-E5AD55FA2523}">
@@ -490,6 +502,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeWelcomeSb" Key="{1C3D4F7A-D3CD-4548-9CCB-687EC669268A}">
+										<Image FileName="-287370276" Left="1235" Top="72" Right="1587" Bottom="122" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Welcome SB&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogout" Key="{CB6CD534-BB10-43A3-8D2E-C6F362EE8850}">
+										<Image FileName="-287370276" Left="1515" Top="72" Right="1588" Bottom="122" />
+										<TypeInfo Item0="{542E3D22-194B-4F7C-9E88-DBA65B584A1F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bs-example-navbar-collapse-1&apos;]/ul[2]/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageViewcart" Key="{82B8F523-1C57-419C-A7E3-38F2BC2058AA}">
@@ -580,6 +615,7 @@
 				<Child Name="textboxLoginEmail" Owner="{0AA907FC-1F11-4D42-9E9E-857FDBD7FAE0}" />
 				<Child Name="passwordboxLoginPassword" Owner="{AFD4FC71-6767-446E-8F6B-9363254F6607}" />
 				<Child Name="buttonLogIn" Owner="{307B6DB0-D186-43DA-B798-DDD6772173EF}" />
+				<Child Name="textnodeSignIn" Owner="{4431765F-1097-47DB-B0C4-DCC53EDE0488}" />
 			</Child>
 			<Child Name="pageSearchpage" Owner="{56C6C8AB-AABA-4A9F-8F8C-E5AD55FA2523}">
 				<Child Name="textnodeIphone" Owner="{8FE61C1F-1A12-40E2-8D7B-CC34E516E273}" />
@@ -590,6 +626,9 @@
 					<Child Name="formSubmit" Owner="{4937997D-3C7A-444F-9D8D-08DDD06BF198}">
 						<Child Name="textboxItem" Owner="{FA9A3FFE-3D90-4FFE-B1BA-28A331E4E5BC}" />
 						<Child Name="buttonSubmit" Owner="{8D937ACD-2F45-479B-A72E-3054ADB921D5}" />
+					</Child>
+					<Child Name="textnodeWelcomeSb" Owner="{1C3D4F7A-D3CD-4548-9CCB-687EC669268A}">
+						<Child Name="linkLogout" Owner="{CB6CD534-BB10-43A3-8D2E-C6F362EE8850}" />
 					</Child>
 				</Child>
 			</Child>

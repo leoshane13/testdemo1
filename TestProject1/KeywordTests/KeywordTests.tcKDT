@@ -3,5 +3,6 @@
 	<children>
 		<child name="Signup" key="{D417973A-CF33-4BC1-AF9D-2145A85A1FD5}" path="Signup.tcKDTest" />
 		<child name="Signin" key="{F533F519-FD49-4090-8C40-F405F8C16F4A}" path="Signin.tcKDTest" />
+		<child name="Logout" key="{50473B3E-AD86-4EF7-8183-F3801CC6B2E5}" path="Logout.tcKDTest" />
 	</children>
 </Root>
